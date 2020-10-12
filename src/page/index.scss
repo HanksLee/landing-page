@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$title-fontSize: 36px;
+$normal-fontSize: 18px;
+$min-fontSize: 16px;
+.lending-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.lending-page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #373e48;
+    padding: 4px 20px;
+
+    img {
+        margin-right: 15px;
+        width: 26px;
+    }
+    .logoText {
+        color: #fff;
+        font-size: $normal-fontSize;
+        vertical-align: middle;
+    }
+
+    .ant-select-selector {
+        color: #fff;
+        font-size: $normal-fontSize;
+        background-color: #373e48 !important;
+        border: none !important;
+    }
+    .ant-select-arrow {
+        color: #fff;
+    }
+
+    .ant-select-selector,
+    .ant-select-selector:active,
+    .ant-select-focused .ant-select-selection,
+    .ant-select-selection:focus,
+    .ant-select-selection:active {
+        border: none !important;
+        outline: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.lending-page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-block {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    background-color: #f4f4f6;
+    .block-head {
+        padding-top: 40px;
+        text-align: center;
+        width: 500px;
+        align-self: center;
+        .title-top {
+            font-size: $normal-fontSize;
+        }
+        .title-main {
+            font-size: $title-fontSize;
+        }
+        .title-content {
+            padding: 10px 0px;
+            font-size: $normal-fontSize;
+            color: #51586d;
+        }
+    }
+    .block-content {
+        height: 100%;
+        width: 100%;
+        white-space: nowrap;
+        display: flex;
+        flex-direction: row;
+
+        position: relative;
+        justify-content: space-around;
+        overflow: auto;
+        // border: solid 2px #fff;
+        img {
+            // margin: 10px;
+        }
+    }
+    .block-content-center {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+    }
+
+    .block-button {
+        height: 100%;
+        width: 200px;
+        opacity: 0.5;
+        z-index: 99;
+        background-color: red;
+        position: absolute;
+        &.button-left {
+            left: 0;
+        }
+        &.button-right {
+            right: 0;
+        }
+    }
+    &.invest-background {
+        // background-image: url('../assets/img/invest.png');
+        background-image: url("../assets/img/invest.svg");
+    }
+    &.dark-background {
+        background-color: #161a25;
+        .title-main {
+            color: #fff;
+        }
+    }
+    .assetsItem {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 10px;
+        box-shadow: 0 2px 5px grey;
+        margin: 0px 30px;
+        border-radius: 4px;
+        .assetsItem-photo {
+            clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 75% 89%, 52% 101%, 10% 86%, 0 80%, 0% 35%, 0 0);
+        }
+        .assetsItem-icon {
+            padding: 15px 0;
+        }
+    }
+    .tradeItem {
+        width: 200px;
+        text-align: center;
+        flex-shrink: 0;
+        margin: 0px 30px;
+        .tradeItem-title {
+            font-size: $normal-fontSize;
+            padding: 20px 0px 10px 0px;
+            font-weight: 500;
+        }
+        .tradeItem-content {
+            font-size: $min-fontSize;
+            white-space: pre-wrap;
+            color: #51586d;
+        }
+    }
+    .feedbackItem {
+        width: 288px;
+        background-color: #fff;
+        padding: 15px 25px;
+        margin: 0px 10px;
+        flex-shrink: 0;
+        color: #51586d;
+        .feedbackItem-text {
+            padding: 15px 0px;
+            white-space: pre-wrap;
+        }
+        .feedbackItem-member {
+            display: flex;
+            justify-content: space-around;
+            font-size: 10px;
+            img {
+                width: 24px;
+            }
+        }
+    }
+
+    &.download-content{
+        .block-content-center{
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .download-icon-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        img {
+            margin: 15px;
+        }
+    }
+}
