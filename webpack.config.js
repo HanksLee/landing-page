@@ -24,7 +24,10 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/i,
         use: [
           {
-            loader: 'url-loader'
+            loader: 'url-loader',
+            options: {
+              esModule: false
+            }
           }
         ]
       }
@@ -40,7 +43,8 @@ module.exports = {
       'views': `${__dirname}/src/views/`,
       'services': `${__dirname}/src/services/`,
       'components': `${__dirname}/src/components/`,
-      'models': `${__dirname}/src/models/`
+      'models': `${__dirname}/src/models/`,
+      // '@img': path.resolve(__dirname, 'src/assets/img'),
     }
   },
   output: {

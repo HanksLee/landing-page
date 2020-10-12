@@ -14,6 +14,7 @@ import 'antd/dist/antd.css';
 import Block from '../components/Block';
 import TradeItem from '../components/TradeItem';
 import FeedbackItem from '../components/FeedbackItem';
+<<<<<<< HEAD
 import StepItem from '../components/StepItem';
 import Johnson from '@/assets/img/Johnson.svg';
 import AssetsItem from '../components/AssetsItem';
@@ -21,6 +22,12 @@ import trendIcon from '@/assets/img/trendIcon.svg';
 import googleDownload from '@/assets/img/googleDownload.svg';
 import iosDownload from '@/assets/img/iosDownload.svg';
 import desktopDownload from '@/assets/img/desktopDownload.svg';
+=======
+import Johnson from '@/assets/img/Johnson.svg';
+import AssetsItem from '../components/AssetsItem';
+
+import trendIcon from '@/assets/img/trendIcon.svg';
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
 
 
 
@@ -56,14 +63,22 @@ class App extends React.Component {
           </div>
         </header>
         <div className="lending-page-content">
+<<<<<<< HEAD
           <Block
+=======
+        <Block
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
             classStyle="invest-background"
             titleTop="超过300"
             title="投资全球最受欢迎的资产"
             titleContent="从成熟的行业到新兴的新兴时代，从十几种不同的途径中进行明智的投资。"
             content={
               <>
+<<<<<<< HEAD
                 <TradeItem
+=======
+            <TradeItem
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
                   tradeItemIcon={tradeItem_support}
                   tradeItemTitle="支持24/7"
                   tradeItemContent="一支會說您的母語的專業團隊將隨時為您提供支持。"
@@ -78,12 +93,21 @@ class App extends React.Component {
             titleContent="从成熟的行业到新兴的新兴时代，从十几种不同的途径中进行明智的投资。"
             content={
               <>
+<<<<<<< HEAD
                 <AssetsItem assetsText="原油WTI" />
                 <AssetsItem assetsText="原油WTI" />
                 <AssetsItem assetsText="原油WTI" />
                 <AssetsItem assetsText="原油WTI" />
                 <AssetsItem assetsText="原油WTI" />
                 <AssetsItem assetsText="原油WTI" />
+=======
+               <AssetsItem assetsText="原油WTI"/>
+               <AssetsItem assetsText="原油WTI"/>
+               <AssetsItem assetsText="原油WTI"/>
+               <AssetsItem assetsText="原油WTI"/>
+               <AssetsItem assetsText="原油WTI"/>
+               <AssetsItem assetsText="原油WTI"/>
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
               </>
             }
           />
@@ -162,6 +186,7 @@ class App extends React.Component {
             }
           />
           <Block
+<<<<<<< HEAD
             classStyle=""
             title="很容易上手"
             content={
@@ -189,16 +214,26 @@ class App extends React.Component {
           />
           <Block
             classStyle="dark-background download-content"
+=======
+            classStyle="dark-background"
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
             title="准备免费进入投资世界吗？"
             titleContent="立即下载使用平台。"
             content={
               <>
+<<<<<<< HEAD
                 <div className="download-icon-left"><img src={trendIcon} /></div>
                 <div className="download-icon-right">
                   <div><img src={googleDownload} alt="download"/></div>
                   <div><img src={iosDownload} alt="download"/></div>
                   <div><img src={desktopDownload} alt="download"/></div>
                 </div>
+=======
+              <div className="invest-icon">
+              <img src={trendIcon}/>
+              </div>
+           
+>>>>>>> 7f5114cf492fdfa9bfdae6b923891dde003bf611
               </>
             }
           />
