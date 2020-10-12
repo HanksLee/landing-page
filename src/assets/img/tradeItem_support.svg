@@ -1,0 +1,13 @@
+<svg id="Group_24" data-name="Group 24" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Slice_24" data-name="Slice 24">
+    <circle id="Oval" cx="28" cy="28" r="28" fill="#f2e205"/>
+    <g id="Group" transform="translate(15 18)">
+      <path id="Path" d="M2.3,8.7V0H1A.945.945,0,0,0,0,1V14.8l2.2-2h16a.945.945,0,0,0,1-1V10.7H4.2A1.988,1.988,0,0,1,2.3,8.7Z" transform="translate(0.4 6.2)" fill="#fff" opacity="0.7"/>
+      <path id="Shape" d="M20.7,17.8h0l-3.8-3H1a.947.947,0,0,1-1-1V1A.947.947,0,0,1,1,0H19.7a.947.947,0,0,1,1,1V17.8ZM14.8,5.9a1.539,1.539,0,0,0-1.5,1.5,1.5,1.5,0,1,0,3,0A1.539,1.539,0,0,0,14.8,5.9Zm-4.5,0A1.539,1.539,0,0,0,8.8,7.4a1.5,1.5,0,1,0,3,0A1.539,1.539,0,0,0,10.3,5.9Zm-4.4,0A1.539,1.539,0,0,0,4.4,7.4,1.54,1.54,0,0,0,5.9,8.9,1.539,1.539,0,0,0,7.4,7.4,1.539,1.539,0,0,0,5.9,5.9Z" transform="translate(4.9 0.2)" fill="#fff"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(40 2)">
+      <circle id="Oval-2" data-name="Oval" cx="8" cy="8" r="8" fill="#ffffbc"/>
+      <path id="Path-2" data-name="Path" d="M3.35,4.05,7.25.15a.483.483,0,0,1,.7,0l.7.7a.483.483,0,0,1,0,.7l-4.2,4.2a.1.1,0,0,1-.1.1l-.7.7a.483.483,0,0,1-.7,0h0L.15,3.75a.483.483,0,0,1,0-.7l.7-.7a.483.483,0,0,1,.7,0l1.8,1.7Z" transform="translate(3.55 4.65)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

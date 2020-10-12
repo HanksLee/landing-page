@@ -1,0 +1,17 @@
+<svg id="Group_22" data-name="Group 22" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Slice_22" data-name="Slice 22">
+    <circle id="Oval" cx="28" cy="28" r="28" fill="#f2e205"/>
+    <g id="Group" transform="translate(15 17)">
+      <path id="Path" d="M.5,0h25a.472.472,0,0,1,.5.5v1a.472.472,0,0,1-.5.5H.5A.472.472,0,0,1,0,1.5V.5A.472.472,0,0,1,.5,0Z" transform="translate(0 2)" fill="#ffffbc"/>
+      <path id="Path-2" data-name="Path" d="M1.5,0h3A1.538,1.538,0,0,1,6,1.5v3A1.538,1.538,0,0,1,4.5,6h-3A1.538,1.538,0,0,1,0,4.5v-3A1.538,1.538,0,0,1,1.5,0Z" fill="#fff"/>
+      <path id="Path-3" data-name="Path" d="M.5,0h25a.472.472,0,0,1,.5.5v1a.472.472,0,0,1-.5.5H.5A.472.472,0,0,1,0,1.5V.5A.472.472,0,0,1,.5,0Z" transform="translate(0 10)" fill="#ffffbc"/>
+      <path id="Path-4" data-name="Path" d="M1.5,0h3A1.538,1.538,0,0,1,6,1.5v3A1.538,1.538,0,0,1,4.5,6h-3A1.538,1.538,0,0,1,0,4.5v-3A1.538,1.538,0,0,1,1.5,0Z" transform="translate(10 8)" fill="#fff"/>
+      <path id="Path-5" data-name="Path" d="M.5,0h25a.472.472,0,0,1,.5.5v1a.472.472,0,0,1-.5.5H.5A.472.472,0,0,1,0,1.5V.5A.472.472,0,0,1,.5,0Z" transform="translate(0 18)" fill="#ffffbc"/>
+      <path id="Path-6" data-name="Path" d="M1.5,0h3A1.538,1.538,0,0,1,6,1.5v3A1.538,1.538,0,0,1,4.5,6h-3A1.538,1.538,0,0,1,0,4.5v-3A1.538,1.538,0,0,1,1.5,0Z" transform="translate(20 16)" fill="#fff"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(40 2)">
+      <circle id="Oval-2" data-name="Oval" cx="8" cy="8" r="8" fill="#ffffbc"/>
+      <path id="Path-7" data-name="Path" d="M3.35,4.05,7.25.15a.483.483,0,0,1,.7,0l.7.7a.483.483,0,0,1,0,.7l-4.2,4.2a.1.1,0,0,1-.1.1l-.7.7a.483.483,0,0,1-.7,0h0L.15,3.75a.483.483,0,0,1,0-.7l.7-.7a.483.483,0,0,1,.7,0l1.8,1.7Z" transform="translate(3.55 4.65)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

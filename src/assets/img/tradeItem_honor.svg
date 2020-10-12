@@ -1,0 +1,13 @@
+<svg id="Group_20" data-name="Group 20" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <g id="Slice_20" data-name="Slice 20">
+    <circle id="Oval" cx="28" cy="28" r="28" fill="#f2e205"/>
+    <g id="Group" transform="translate(14 18)">
+      <path id="Path" d="M7.7,20V16A8.031,8.031,0,0,1,0,8V1A.945.945,0,0,1,1,0H16.3a.945.945,0,0,1,1,1V8a8.031,8.031,0,0,1-7.7,8v4h2.3a2.689,2.689,0,0,1,2.7,2.7H2.7A2.689,2.689,0,0,1,5.4,20Z" transform="translate(5.3 0.2)" fill="#fff"/>
+      <path id="Shape" d="M24,8h0V0h1.7a.947.947,0,0,1,1,1V5.3a2.981,2.981,0,0,1-.863,1.913A2.6,2.6,0,0,1,24,8ZM2.7,8h0A2.688,2.688,0,0,1,0,5.3V1A.947.947,0,0,1,1,0H2.7V8Z" transform="translate(0.7 1.5)" fill="#fff" opacity="0.7"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(40 2)">
+      <circle id="Oval-2" data-name="Oval" cx="8" cy="8" r="8" fill="#ffffbc"/>
+      <path id="Path-2" data-name="Path" d="M3.35,4.05,7.25.15a.483.483,0,0,1,.7,0l.7.7a.483.483,0,0,1,0,.7l-4.2,4.2a.1.1,0,0,1-.1.1l-.7.7a.483.483,0,0,1-.7,0h0L.15,3.75a.483.483,0,0,1,0-.7l.7-.7a.483.483,0,0,1,.7,0l1.8,1.7Z" transform="translate(3.55 4.65)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
