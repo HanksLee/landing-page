@@ -6,15 +6,14 @@ export default function AssetsItem(props) {
     return (
         <div className="assetsItem">
             <div className="assetsItem-photo">
-                <img src={assetsItem_oil} alt="assetsPhoto"/>
+                <img src={assetsItem_oil} alt="assetsPhoto" />
             </div>
             <div className="assetsItem-icon">
-                <img src={oil_icon} alt="icon"/>
+                <img src={oil_icon} alt="icon" />
             </div>
             <div className="assetsItem-text">
                 {props.assetsText}
             </div>
-            
         </div>
     );
 }
