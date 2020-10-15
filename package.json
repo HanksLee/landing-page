@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "dev": "cross-env NODE_ENV=development MODE=dev webpack-dev-server --config ./webpack.config.js",
-    "build": "cross-env NODE_ENV=production MODE=build node ./webpack.config.js"
+    "dev": "cross-env NODE_ENV=development MODE=dev webpack-dev-server --config ./build/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production MODE=build webpack --config ./build/webpack.prod.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,9 +39,11 @@
     "@babel/preset-react": "^7.0.0",
     "axios": "^0.20.0",
     "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.2",
     "css-loader": "^1.0.0",
     "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.5.0",
     "node-sass": "^4.14.1",
     "react-hot-loader": "^4.13.0",
     "sass-loader": "^7.3.1",
@@ -49,6 +51,7 @@
     "url-loader": "^4.1.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.1.8",
+    "webpack-merge": "^5.2.0"
   }
 }
