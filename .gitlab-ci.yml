@@ -1,0 +1,34 @@
+image: node:10.18.0
+
+cache:
+  untracked: true
+  key: "$CI_BUILD_REF_NAME"
+  paths:
+    - dist/
+
+stages:
+  - build
+  - deploy
+
+build prod_job:
+  stage: build
+  only:
+    refs:
+      - master
+  script:
+    - npm install
+    - npm run build
+
+deploy_prod_job:
+  stage: deploy
+  only:
+    refs:
+      - master
+  script:
+    - apt-get update -y
+    - apt-get -y install rsync
+    - echo "$PROD_SSH_PRIVATE_KEY" > id_rsa
+    - chmod 700 id_rsa
+    - mkdir "${HOME}/.ssh"
+    - echo "${PROD_SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+    - rsync -hrvz --delete -e "ssh -i id_rsa" dist/prod/* root@47.52.157.137:/www/wwwroot/landing.trading8a.com
